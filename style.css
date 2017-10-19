@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  background-color: rgba(108,128,154,0.4);
 }
 
 .header-image {
@@ -16,22 +17,26 @@ body {
 
 .header-text {
 	position: absolute;
-    top: 50%;
-    left: 40px;
-    transform: translateY(-50%);
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
 }
+
 .header-text h1 {
-	font-size: 6em;
-    color: #FFF;
-    margin: 0.67em 0;
-    margin-bottom: 10px;
+	font-size: 10em;
+  color: #FFF;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 92%;
 }
+
 .header-text p {
-	text-transform: uppercase;
 	color: #FFF;
-	font-size: 2em;
-    margin-top: 5px;
-		margin-bottom: 20px;
+	font-size: 4em;
+  margin-left: 10%;
+  margin-top: 5px;
+	margin-bottom: 2%;
 }
 
 .headshot {
@@ -39,6 +44,7 @@ body {
   border-radius: 100%;
   box-shadow: 0 0 20px 0px rgb(47, 47, 47),
               0 0 20px 0px rgba(107, 104, 104, 0);
+  margin-bottom: 30px;
 }
 
 .intro {
@@ -46,9 +52,16 @@ body {
   width: 30%;
   text-align: center;
   padding-top: 7%;
+  padding-bottom: 2%;
 }
 
 .intro-text {
+  padding-bottom: 5%;
+}
+
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
   padding-bottom: 2%;
 }
 
@@ -56,21 +69,20 @@ body {
 
 .download-link {
   text-decoration: none;
-  padding: 10px 10px;
-  background-color: #37454e;
-  border: #37454e;
-  color: white;
-  border-radius: 5px;
-  width: 15%;
+  padding: 5px 5px;
+  border-bottom: 2px solid red;
+  color: black;
+  font-size: 18px;
 }
 
  .download-link:hover {
-  background: white;
   color: black;
-  border: 2px solid black;
+  border: 2px solid red;
   text-decoration: none;
   transition: .3s ease background;
+  padding: 10px 10px;
   border-radius: 5px;
+  font-size: 18px;
 }
 
 
@@ -91,14 +103,11 @@ body {
 }
 
 .project-container{
-  /*padding: 1em 0;*/
-  /*border-radius: 50%;*/
   box-shadow: 0 0 15px 0px rgb(47, 47, 47),
               0 0 15px 0px rgba(107, 104, 104, 0);
 }
 
 .content-image {
-  /*width: 400px;*/
   height: 220px;
   width: 300px;
 }
@@ -123,7 +132,6 @@ body {
   right: 0;
   opacity: 0;
   transition: all 0.4s ease-in-out 0s;
-  /*border-radius: 50%;*/
 }
 
 .content:hover .content-overlay{
@@ -145,6 +153,7 @@ body {
   opacity: 0;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out 0s;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .content:hover .content-details{
@@ -170,6 +179,9 @@ body {
   top: 80%;
 }
 
+
+/* tools section styling*/
+
 .skills-image {
   height: 80px;
 }
@@ -182,4 +194,34 @@ body {
 .skills-text {
   text-align: center;
   padding-bottom: 3%;
+}
+
+/*contact section styling*/
+
+.contact {
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.contact-header {
+  padding-bottom: 2%;
+}
+
+.contact-image, {
+  text-align: right;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.github, .linkedin, .email {
+  height: 80px;
+  display: inline-block;
+  margin: 4%;
+}
+
+footer {
+  text-align: center;
 }
