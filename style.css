@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-family: 'Roboto', sans-serif;
   background-color: rgba(108,128,154,0.4);
 }
 
@@ -37,6 +37,7 @@ body {
   margin-left: 10%;
   margin-top: 5px;
 	margin-bottom: 2%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .headshot {
@@ -173,6 +174,7 @@ h2 {
 .content-details {
   color: #fff;
   font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .fadeIn-bottom{
