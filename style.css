@@ -10,7 +10,7 @@ body {
 	background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 80vh;
+  height: 70vh;
   box-shadow: 0 0 20px 0px rgb(47, 47, 47),
               0 0 20px 0px rgba(107, 104, 104, 0);
 }
@@ -29,6 +29,7 @@ body {
   margin-bottom: 10px;
   font-family: 'Fjalla One', sans-serif;
   line-height: 92%;
+	-webkit-animation-duration: 2s;
 }
 
 .header-text p {
@@ -38,6 +39,7 @@ body {
   margin-top: 5px;
 	margin-bottom: 2%;
   font-family: 'Roboto', sans-serif;
+	-webkit-animation-duration: 2s;
 }
 
 .headshot {
@@ -46,6 +48,7 @@ body {
   box-shadow: 0 0 20px 0px rgb(47, 47, 47),
               0 0 20px 0px rgba(107, 104, 104, 0);
   margin-bottom: 30px;
+	-webkit-animation-duration: 2s;
 }
 
 .intro {
