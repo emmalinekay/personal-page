@@ -191,6 +191,10 @@ h2 {
   height: 80px;
 }
 
+.skills-image:hover {
+	height: 60px;
+}
+
 .skills-div {
   text-align: center;
   padding-bottom: 20px;
